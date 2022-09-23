@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:src" content="">
+  <meta property="og:image" content="">
+  <meta name="twitter:title" content="Home | MedhanET Electronic Prescription and Drug Search Engine">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/medhanet-vertical-white-logo-192x155.png" type="image/x-icon">
   <meta name="description" content=" MedhanET Electronic Prescription and Drug Search Engine">
@@ -14,8 +18,6 @@
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/FontAwesome/css/font-awesome.css">
-  <link rel="stylesheet" href="assets/Material-Design-Icons/css/material.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -93,7 +95,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h1 class="mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style display-2">በሀኪም የታዘዙ መድኃኒቶች በቀላሉ ያግኙ</h1>
             <h3 class="mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style display-5"><span style="font-style: normal;">እናንተ ጤናችሁን መጠበቅ ላይ ብቻ እንድታተኩሩ፣ እኛ ተግተን እንሠራለን።</span></h3>
             <p class="mbr-text align-left pb-3 mbr-fonts-style display-5">&nbsp;24 ሰዓት ክፍት ነን</p>
-            <div class="mbr-section-btn align-left"><a class="btn btn-md btn-primary display-4" href="https://app.medhan.et/amh/find-drug"><span class="fa fa-search mbr-iconfont mbr-iconfont-btn"></span>መድሃኒት ለመፈለግ እዚህ ጋር ይጫኑ</a>  <a class="btn btn-md btn-success display-4" href="https://app.medhan.et"><span class="mbrib-login mbr-iconfont mbr-iconfont-btn"></span>ሃኪም ወይም ፋርማሲስት መግቢያ&nbsp;</a></div>
+            <div class="mbr-section-btn align-left">
+            <input placeholder="መድሃኒት ይፈልጉ..." type="text" name="search" data-form-field="Search" class="form-control search-input" onchange="myFunction()" id="search-input">       
+<!--                 <a class="btn btn-md btn-primary" href="https://app.medhan.et/amh/find-drug" data-app-placeholder="Type Text"><span class="fa fa-search mbr-iconfont mbr-iconfont-btn"></span>መድሃኒት ለመፈለግ እዚህ ጋር ይጫኑ</a> -->
+            </div>
         </div>
     </div>
 
@@ -102,6 +107,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <i class="mbri-down mbr-iconfont"></i>
         </a>
     </div>
+      <script>
+    function myFunction(e) {
+        const value = document.getElementById("search-input").value
+        window.location.href = 'https://app.medhan.et/find-drug?q='+value
+}
+</script>
 </section>
 
 <section class="mbr-section content4 cid-s7PnMscdWv" id="content4-5">
@@ -251,8 +262,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 
-<script src="assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="assets/popper/popper.min.js"></script>
+<script src="assets/popper/popper.min.js"></script>
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
