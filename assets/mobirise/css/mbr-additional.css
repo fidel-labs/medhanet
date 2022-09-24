@@ -1957,11 +1957,13 @@ section.lazy-placeholder:after {
 .cid-s7P5l20kir .search-icon {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 25px;
   cursor: pointer;
   border: 0px;
   background: transparent;
   outline: none;
+  color: black;
+  font-size: 18px;
 }
 .cid-s7PnMscdWv {
   padding-top: 60px;
