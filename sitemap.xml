@@ -1,11 +1,5 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.medhan.et/page11.html</loc>
-	</url>
-	<url>
-		<loc>https://www.medhan.et/page12.html</loc>
-	</url>
-	<url>
 		<loc>https://www.medhan.et/index.html</loc>
 	</url>
 	<url>
@@ -31,5 +25,11 @@
 	</url>
 	<url>
 		<loc>https://www.medhan.et/contact-us.html</loc>
+	</url>
+	<url>
+		<loc>https://www.medhan.et/MUR.html</loc>
+	</url>
+	<url>
+		<loc>https://www.medhan.et/RPR.html</loc>
 	</url>
 </urlset>
